@@ -98,6 +98,8 @@ Future development may include:
 - Smart safety glasses that display visual warnings directly in the worker’s field of view
 - Wireless communication system to automatically send alerts to nearby team members or a central monitoring station
 - GPS location tracking to quickly identify the worker’s position during emergencies
+- Advanced worker health monitoring beyond pulse only, including broader physiological condition tracking and early health-risk detection
+- Smart health analytics to identify signs of fatigue, heat stress, abnormal body condition, and possible physical distress
 - Central safety monitoring dashboard for supervisors to track multiple workers in real time
 - Camera-based hazard detection using computer vision and AI
 - Voice or microphone communication for quick emergency interaction
@@ -105,8 +107,6 @@ Future development may include:
 - Data logging and analytics to analyze incidents and improve prevention strategies
 
 These future improvements would transform ZENTRIX from a prototype device into a scalable intelligent safety ecosystem for industries such as construction, mining, oil and gas, and desert field operations.
-
----
 
 ## Prototype Purpose
 
