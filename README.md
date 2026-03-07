@@ -112,3 +112,46 @@ By combining sensor technology, embedded systems, and intelligent monitoring, ZE
 ## Author
 
 Project developed as a prototype for a smart safety solution focused on worker protection in hazardous environments.
+
+## System Architecture
+
+```
+                +----------------------+
+                |     ZENTRIX HELMET   |
+                |   Smart Safety Unit  |
+                +----------+-----------+
+                           |
+                   +-------v--------+
+                   |   Arduino UNO  |
+                   |  Control Unit  |
+                   +-------+--------+
+                           |
+        -------------------------------------------------
+        |        |         |        |        |          |
+        v        v         v        v        v          v
+
++-------------+ +-------------+ +-------------+ +-------------+ +-------------+
+| Temperature | | Gas Sensor  | | Sound Sensor| | Motion/Fall | | SOS Button  |
+|   Sensor    | |             | |             | |   Sensor     | |             |
++-------------+ +-------------+ +-------------+ +-------------+ +-------------+
+
+                           |
+                   +-------v--------+
+                   | Safety Alerts  |
+                   +-------+--------+
+                           |
+         -----------------------------------------
+         |                |                     |
+         v                v                     v
+
+   +-----------+     +-----------+       +-------------+
+   |  LED      |     |  Buzzer   |       | LCD Display |
+   | Indicators|     |  Alarm    |       | Status Info |
+   +-----------+     +-----------+       +-------------+
+
+                           |
+                   +-------v--------+
+                   | Cooling System |
+                   |   Fan + Relay  |
+                   +----------------+
+```
